@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    width: 100%;
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto auto auto auto; /* Four columns for four items */
+    justify-content: end; /* Align items to the right */
+    gap: 20px; /* Gap between items */
+    padding-left: 0px; /* Gap from the right side */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 20px 20px; /* Adjust padding as needed */
+    text-align: right;
+    padding-left: 0px;
+}
